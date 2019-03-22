@@ -1,26 +1,33 @@
-
 {
   "name": "myapp",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Decentralized file storage",
+  "main": "index.js",
   "dependencies": {
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-fileupload": "^1.0.0-alpha.1",
+    "firebase-admin": "^6.0.0",
+    "ipfs-api": "^26.1.2",
+    "mongoose": "^5.2.17",
+    "nodemon": "^1.18.4",
+    "request": "^2.88.0"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "console.log('test')",
+    "start": "nodemon index.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeCraters/myapp.git"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "keywords": [
+    "ipfs"
+  ],
+  "author": "CodeCraters",
+  "bugs": {
+    "url": "https://github.com/CodeCraters/myapp/issues"
+  },
+  "homepage": "https://github.com/CodeCraters/myapp#readme"
 }
